@@ -51,7 +51,7 @@ for ($coloum = 0; $coloum <= $luasSegitiga; $coloum++) {
         } elseif(($coloum == 4) && ($row == 2) || 
                  ($coloum == 4) && ($row == 1)) {
             echo "✕. ";
-        }else {
+        } else {
             echo "◯ ";
         }
     }
